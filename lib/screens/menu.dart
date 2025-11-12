@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 // Import drawer widget
 import 'package:football_news/widgets/left_drawer.dart';
-import 'package:football_news/screens/newslist_form.dart';
 import 'package:football_news/widgets/news_card.dart';
 
 class MyHomePage extends StatelessWidget {
-    MyHomePage({super.key, required ColorScheme colorScheme});
+  MyHomePage({super.key, ColorScheme? colorScheme});
 
     final String nama = "Adryan Muhammad Rasyad" ;//nama
     final String npm = "2406430451"; //npm
